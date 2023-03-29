@@ -4,7 +4,7 @@
 body {
   background-color: black;
 }
-@media only screen and (min-width: 1189px) and (max-width: 1500px) {
+@media only screen and (min-width: 1189px) {
   .explanation {
     color: white;
     font-family: "K2D", sans-serif;
@@ -50,7 +50,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 907px) and (max-width: 1188px) {
+@media only screen and (min-width: 1028px) and (max-width: 1188px) {
   .explanation {
     color: white;
     font-family: "K2D", sans-serif;
@@ -96,12 +96,12 @@ body {
   }
 }
 
-@media only screen and (max-width: 906px) {
+@media only screen and (min-width: 355px) and (max-width: 1027px) {
   .explanation {
     color: white;
     font-family: "K2D", sans-serif;
     font-size: 28px;
-    line-height: 62px;
+    line-height: 50px;
     letter-spacing: 0;
     text-align: start;
   }
@@ -111,7 +111,7 @@ body {
     flex-direction: column;
     margin-left: 35px;
     margin-right: 35px;
-    margin-top: 70px;
+    margin-top: 40%;
   }
   .home {
     height: 100vh;
@@ -136,6 +136,51 @@ body {
   .App-link {
     color: white;
     font-size: 14px;
+    align-self: flex-start;
+    margin-right: 5vh;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 354px) {
+  .explanation {
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0;
+    text-align: start;
+  }
+
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 40%;
+  }
+  .home {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .userRow {
+    width: 27px;
+    height: 27px;
+    border-radius: 100%;
+    box-shadow: 0 3px 10px #f9004d;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-user {
+    color: white;
+    font-size: 14px;
+  }
+  .App-link {
+    color: white;
+    font-size: 9px;
     align-self: flex-start;
     margin-right: 5vh;
     justify-content: space-between;
