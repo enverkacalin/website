@@ -1,0 +1,148 @@
+.App {
+  background-color: black;
+}
+body {
+  background-color: black;
+}
+@media only screen and (min-width: 1189px) and (max-width: 1500px) {
+  .explanation {
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-size: 47px;
+    line-height: 62px;
+    letter-spacing: 0;
+    text-align: start;
+  }
+  .home {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70vh;
+  }
+
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .userRow {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    box-shadow: 0 3px 10px #f9004d;
+    line-height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-user {
+    color: white;
+    font-size: 30px;
+  }
+  .App-link {
+    color: white;
+    font-size: 20px;
+    align-self: flex-start;
+    margin-right: 5vh;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 907px) and (max-width: 1188px) {
+  .explanation {
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-size: 38px;
+    line-height: 62px;
+    letter-spacing: 0;
+    text-align: start;
+  }
+  .home {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70vh;
+  }
+
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .userRow {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    box-shadow: 0 3px 10px #f9004d;
+    line-height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-user {
+    color: white;
+    font-size: 25px;
+  }
+  .App-link {
+    color: white;
+    font-size: 17px;
+    align-self: flex-start;
+    margin-right: 5vh;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 906px) {
+  .explanation {
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-size: 28px;
+    line-height: 62px;
+    letter-spacing: 0;
+    text-align: start;
+  }
+
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 70px;
+  }
+  .home {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .userRow {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    box-shadow: 0 3px 10px #f9004d;
+    line-height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-user {
+    color: white;
+    font-size: 20px;
+  }
+  .App-link {
+    color: white;
+    font-size: 14px;
+    align-self: flex-start;
+    margin-right: 5vh;
+    justify-content: space-between;
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+}
